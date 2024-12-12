@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa</title>
+    <style>
+        .polygon {
+            fill: brown;
+            
+        }
+
+        .fumaca3 {
+            background-color: gray;
+            width: 30px;
+            height: 40px;
+            border-radius: 10px;
+            margin: 10px 10px -40px 30px;
+            box-shadow: 1px 1px 2px 4px gray;
+        }
+
+        .fumaca2 {
+            background-color: gray;
+            width: 30px;
+            height: 40px;
+            border-radius: 10px;
+            margin: 10px 10px -40px 10px;
+            box-shadow: 1px 1px 2px 4px gray;
+        }
+
+        .fumaca {
+            background-color: gray;
+            width: 30px;
+            height: 40px;
+            border-radius: 10px;
+            margin: 10px 10px 10px 20px;
+            box-shadow: 1px 1px 2px 4px gray;
+        }
+
+        .detalhec {
+            background-color: brown;
+            width: 60px;
+            height: 20px;
+            box-shadow: 1px 1px 1px 1px rgba(165, 42, 42, 0.489);
+
+        }
+        
+        .chamine {
+            background-color: #a52a2a;
+            width: 40px;
+            height: 90px;
+            margin: 0px 10px -200px;
+            box-shadow: 1px 1px 1px 1px rgba(165, 42, 42, 0.489);
+        }
+        
+        .casa {
+            margin: -10px 10px -10px 10px; 
+            border: 1px solid; 
+            width: 180px;
+            height: 130px; 
+            background-color: #fca871;
+        }
+
+        .porta {
+            background-color: #DC8247;
+            width: 50px;
+            height: 100px;
+            border: 2px solid #f8863a;
+            margin: -95px 10px 10px 20px;
+            float: left;
+            border-radius: 3px;
+        }
+
+        .chanf1 {
+            background-color: #DC8247;
+            width: 20px;
+            height: 45px;
+            border: 0.5px solid #3f3f3f;
+            margin: -91px -10px 0px -60px;
+            float: left;
+            border-radius: 3px;
+        }
+
+        .chanf2 {
+            background-color: #DC8247;
+            width: 20px;
+            height: 45px;
+            border: 0.5px solid #3f3f3f;
+            margin: -91px -10px 0px -35px;
+            float: left;
+            border-radius: 3px;
+        }
+
+        .chanf3 {
+            background-color: #DC8247;
+            width: 20px;
+            height: 45px;
+            border: 0.5px solid #3f3f3f;
+            margin: -40px 0px 0px -60px;
+            float: left;
+            border-radius: 3px;
+        }
+
+        .chanf4 {
+            background-color: #DC8247;
+            width: 20px;
+            height: 45px;
+            border: 0.5px solid #3f3f3f;
+            margin: -40px -10px 0px -35px;
+            float: left;
+            border-radius: 3px;
+            
+        }
+        
+        .fundo {
+            background-color: gray;
+            width: 5px;
+            height: 8px;
+            position: relative;
+            border: 0.2px solid;
+            margin: -47px 0px 0px -60px;
+            float: left;
+            border-radius: 1px;
+        }
+
+        .maca {
+            background-color: #000000;
+            width: 6px;
+            height: 1.5px;
+            margin: 1px;
+            border-radius: 1px;
+        }
+
+        .chave {
+            background-color: black;
+            width: 1px;
+            height: 2.5px;
+            border-radius: 1px;
+            margin: 1px 1px 1px 2px;
+            
+        }
+
+        .janela {
+           background-color: antiquewhite;
+           width: 60px;
+           height: 50px;
+           border: 1px solid #f8863a;
+           position: relative;
+           margin: -100px  100px;
+           display: flex;
+        }
+
+        .vidro {
+            background-color: white;
+            width: 55px;
+            height: 45px;
+            border: 0.5px solid  #DC8247;
+            margin: 2px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div style="margin-top: 100px; margin-left: 250px;" >
+    <!--Aqui é a fumaça-->
+    <div class="fumaca3"></div>
+    <div class="fumaca2"></div>
+    <div class="fumaca"></div>
+    <!--Aqui é a chaminé-->
+    <div class="detalhec"></div>
+    <div class="chamine"></div>
+    <!--Aqui é o telhado-->
+    <svg width="200" height="200">
+        <polygon class="polygon" points="100, 65 0, 200, 200, 200,"/>
+    </svg>
+    <!-- Aqui é a casa-->
+     <div class="parede">
+         <div class="casa"></div>
+         <!--Aqui é a porta-->
+             <div class="porta"></div>
+             <div class="chanf1"></div>
+             <div class="chanf2"></div>
+             <div class="chanf3"></div>
+             <div class="chanf4"></div>
+         <!--Aqui é a fechadura-->
+         <div class="fundo">
+            <div class="maca"></div>
+            <div class="chave"></div>
+         </div>
+         <!-- Aqui é a janela-->
+          <div class="janela">
+            <div class="vidro"></div>
+          </div>
+     </div>
+    </div>
+</body>
+</html>
