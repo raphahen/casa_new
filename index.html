@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
     <style>
         .polygon {
             fill: brown;
-            
+
         }
 
         .fumaca3 {
@@ -44,7 +45,7 @@
             box-shadow: 1px 1px 1px 1px rgba(165, 42, 42, 0.489);
 
         }
-        
+
         .chamine {
             background-color: #a52a2a;
             width: 40px;
@@ -52,12 +53,12 @@
             margin: 0px 10px -200px;
             box-shadow: 1px 1px 1px 1px rgba(165, 42, 42, 0.489);
         }
-        
+
         .casa {
-            margin: -10px 10px -10px 10px; 
-            border: 1px solid; 
+            margin: -10px 10px -10px 10px;
+            border: 1px solid;
             width: 180px;
-            height: 130px; 
+            height: 130px;
             background-color: #fca871;
         }
 
@@ -109,9 +110,9 @@
             margin: -40px -10px 0px -35px;
             float: left;
             border-radius: 3px;
-            
+
         }
-        
+
         .fundo {
             background-color: gray;
             width: 5px;
@@ -137,63 +138,110 @@
             height: 2.5px;
             border-radius: 1px;
             margin: 1px 1px 1px 2px;
-            
+
         }
 
         .janela {
-           background-color: antiquewhite;
-           width: 60px;
-           height: 50px;
-           border: 1px solid #f8863a;
-           position: relative;
-           margin: -100px  100px;
-           display: flex;
+            background-color: antiquewhite;
+            width: 60px;
+            height: 50px;
+            border: 1px solid #f8863a;
+            position: relative;
+            margin: -100px 100px;
+            display: flex;
         }
 
         .vidro {
             background-color: white;
             width: 55px;
             height: 45px;
-            border: 0.5px solid  #DC8247;
+            border: 0.5px solid #DC8247;
             margin: 2px;
         }
 
-        
+        .chao {
+            background-color: green;
+            width: 600px;
+            height: 10px;
+            margin-left: 25px;
+            
+        }
 
+        .carro {
+            width: 150px;
+            height: 35px;
+            background-color: gray;
+            float: right;
+            margin: -45px 10px 10px 10px;
+            border: 1px solid black;
+            border-radius: 7px;
+        }
+
+        .roda1 {
+            width: 30px;
+            height: 30px;
+            background-color: black;
+            border-radius: 50%;
+            margin-top: 25px;
+            margin-left: 15px;
+            float: left;
+        }
+
+        .roda2 {
+            width: 30px;
+            height: 30px;
+            background-color: black;
+            border-radius: 50%;
+            float: right;
+            margin-top: 25px;
+            margin-right: 15px;    
+        }
     </style>
 </head>
+
 <body>
-    <div style="margin-top: 100px; margin-left: 250px;" >
-    <!--Aqui é a fumaça-->
-    <div class="fumaca3"></div>
-    <div class="fumaca2"></div>
-    <div class="fumaca"></div>
-    <!--Aqui é a chaminé-->
-    <div class="detalhec"></div>
-    <div class="chamine"></div>
-    <!--Aqui é o telhado-->
-    <svg width="200" height="200">
-        <polygon class="polygon" points="100, 65 0, 200, 200, 200,"/>
-    </svg>
-    <!-- Aqui é a casa-->
-     <div class="parede">
-         <div class="casa"></div>
-         <!--Aqui é a porta-->
-             <div class="porta"></div>
-             <div class="chanf1"></div>
-             <div class="chanf2"></div>
-             <div class="chanf3"></div>
-             <div class="chanf4"></div>
-         <!--Aqui é a fechadura-->
-         <div class="fundo">
-            <div class="maca"></div>
-            <div class="chave"></div>
-         </div>
-         <!-- Aqui é a janela-->
-          <div class="janela">
-            <div class="vidro"></div>
-          </div>
-     </div>
+    <div style="margin-top: 50px; margin-left: 25px; background-color: aqua; width: 600px; height: 304px;">
+        <!--Aqui é a fumaça-->
+        <div class="fumaca3"></div>
+        <div class="fumaca2"></div>
+        <div class="fumaca"></div>
+        <!--Aqui é a chaminé-->
+        <div class="detalhec"></div>
+        <div class="chamine"></div>
+        <!--Aqui é o telhado-->
+        <svg width="200" height="200">
+            <polygon class="polygon" points="100, 65 0, 200, 200, 200," />
+        </svg>
+        <!-- Aqui é a casa-->
+        <div class="parede">
+            <div class="casa"></div>
+            <!--Aqui é a porta-->
+            <div class="porta"></div>
+            <div class="chanf1"></div>
+            <div class="chanf2"></div>
+            <div class="chanf3"></div>
+            <div class="chanf4"></div>
+            <!--Aqui é a fechadura-->
+            <div class="fundo">
+                <div class="maca"></div>
+                <div class="chave"></div>
+            </div>
+            <!-- Aqui é a janela-->
+            <div class="janela">
+                <div class="vidro"></div>
+            </div>
+            <!--Aqui é o carro-->
+            <div class="carro">
+                <div class="roda1"></div>
+                <div class="roda2"></div>
+            </div>
+            <!--Aqui é a árvore-->
+            <div class="arvore"></div>
+        </div>
     </div>
+    <!--Aqui é o chão-->
+    <div class="chao"></div>
+
 </body>
+
 </html>
