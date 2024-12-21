@@ -1,1 +1,1 @@
-https://raphahen.github.io/casa_new/
+https://raphahen.github.io/casa_nova/
